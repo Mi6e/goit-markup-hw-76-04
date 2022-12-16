@@ -299,13 +299,49 @@ a {
 }
 
 /* -----------Customers---------- */
+.customers-section {
+ padding-top: 120px;
+ padding-bottom: 120px;
+}
 
 .customers-title {
  font-weight: 700;
  font-size: 36px;
  line-height: calc(43 / 36);
  letter-spacing: 0.03em;
+ text-align: center;
  color: var(--main-title);
+ margin-bottom: 72px;
+}
+
+.customers-list {
+ display: flex;
+ gap: 24px;
+}
+
+.customers-item {
+ width: 168px;
+ height: 88px;
+}
+
+.customers-link {
+ width: 100%;
+ height: 100%;
+ border: 1px solid #8e8f99;
+ border-radius: 4px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #afb1b8;
+}
+
+.customers-link:hover {
+ border-color: #4d5ae5;
+ color: #4d5ae5;
+}
+
+.customers-logo {
+ fill: currentColor;
 }
 /* ------------FOOTER----------- */
 
