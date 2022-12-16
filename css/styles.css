@@ -171,7 +171,7 @@ a {
 }
 
 /* ---------INFO----------- */
-.info {
+.info-section {
  padding-top: 120px;
  padding-bottom: 120px;
 }
@@ -179,6 +179,17 @@ a {
 .info-list {
  display: flex;
  gap: 24px;
+}
+
+.info-icon-content {
+ width: 264px;
+ height: 112px;
+ background: #f4f4fd;
+ border-radius: 4px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 8px;
 }
 
 .info-title {
