@@ -129,6 +129,10 @@ a {
 
 .hero {
  background: var(--background-footer-color);
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+
  padding-top: 192px;
  padding-bottom: 192px;
 }
@@ -466,6 +470,7 @@ a {
  border-radius: 4px;
  color: #ffffff;
  border: 1px solid #4d5ae5;
+ outline: none;
 }
 
 .prtf-list {
